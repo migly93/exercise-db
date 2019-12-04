@@ -1,4 +1,4 @@
-## MariaDB container with data for Eurovision Services Backend exercise
+## MariaDB and API container with data for Eurovision Services Backend exercise
 
 ### Prerequisites:
 
@@ -8,8 +8,12 @@ If you don't have it, please visit the [Docker install guide](https://docs.docke
 
 ### Running instructions:
 
-1. Build the image from the Dockerfile using the tag "mariadb"
-2. Run the container exposing the port 3306.
-3. After running the container you will be able to connect to the DB hosted at localhost:3306.
+Execute the docker-compose file. It will start the database and the API (_**the API is only needed if you're going to do the front-end exercise**_)
 
-All the info needed to connect to the DB is included in the Dockerfile.
+After running the docker-compose the following endpoints can be reached:
+
+- Database: localhost:3306
+- API: localhost:1111/cities
+
+
+All the info needed to connect to the DB is included in the file Dockerfile.db
