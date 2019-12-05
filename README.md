@@ -16,4 +16,4 @@ After running the docker-compose the following endpoints can be reached:
 - API: localhost:1111/cities/queryByPage?page={page_number}&size={items_by_page}
 
 
-All the info needed to connect to the DB is included in the file Dockerfile.db
+All the info needed to connect to the DB is included in the exercise PDF provided. 
