@@ -1,8 +1,0 @@
-FROM java:8
-
-MAINTAINER Eurovision Labs <labs@eurovision.net>
-
-COPY ./cities.jar cities.jar
-CMD ["java","-jar","cities.jar"]
-
-EXPOSE 1111
