@@ -1,0 +1,16 @@
+version: "3.4"
+services:
+  db:
+    image: moninoeurovisio/exercise-db_mariadb
+    ports:
+      - "3306:3306"
+  backend:
+    image: peppemigly/exercise-db-app-be:latest
+    restart: always
+    ports:
+      - "8080:8080"
+    environment:
+      spring.datasource.url: jdbc:mariadb://db:3306/eurovisiondb
+      spring.datasource.username: admin
+      spring.datasource.password: admin
+      spring.datasource.driver-class-name: org.mariadb.jdbc.Driver
