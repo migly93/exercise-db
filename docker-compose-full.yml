@@ -14,3 +14,8 @@ services:
       spring.datasource.username: admin
       spring.datasource.password: admin
       spring.datasource.driver-class-name: org.mariadb.jdbc.Driver
+  frontend:
+    image: peppemigly/exercise-db-app-fe:latest
+    ports:
+      - "4200:80"
+        
