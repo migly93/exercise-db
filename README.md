@@ -20,3 +20,6 @@ You can also:
     run every container separately with the `docker-compose up` command in backend and frontend folders
     run backend and frontend from your preferred IDE.
 
+## Info
+
+For further informations contact me at `giuseppe.migliaccio93@gmail.com`
