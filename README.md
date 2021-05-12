@@ -9,7 +9,7 @@ If you don't have it, please visit the [Docker install guide](https://docs.docke
 ### Running instructions:
 
 Execute th docker-compose-full.yml file with the following command:
- `docker compose -f docker-compose-full.yml`
+ `docker compose -f docker-compose-full.yml up`
 
 It will start the entire application.
 
