@@ -8,10 +8,15 @@ If you don't have it, please visit the [Docker install guide](https://docs.docke
 
 ### Running instructions:
 
-Execute the docker-compose file. It will start the database
+Execute th docker-compose-full.yml file with the following command:
+ `docker compose -f docker-compose-full.yml`
 
-After running the docker-compose the following endpoints can be reached:
+It will start the entire application.
 
-- Database: localhost:3306
+To run the application visit: `http://localhost:4200/`
+To check the api documentation visit: `http://localhost:8080/swagger-ui/index.html`
 
-All the info needed to connect to the DB is included in the exercise PDF provided. 
+You can also: 
+    run every container separately with the `docker-compose up` command in backend and frontend folders
+    run backend and frontend from your preferred IDE.
+
