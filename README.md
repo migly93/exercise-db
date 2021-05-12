@@ -17,8 +17,8 @@ To run the application visit: `http://localhost:4200/`
 To check the api documentation visit: `http://localhost:8080/swagger-ui/index.html`
 
 You can also: 
-    run every container separately with the `docker-compose up` command in backend and frontend folders
-    run backend and frontend from your preferred IDE.
+   -  run every container separately with the `docker-compose up` command in backend and frontend folders
+   -  run backend and frontend from your preferred IDE.
 
 ## Info
 
