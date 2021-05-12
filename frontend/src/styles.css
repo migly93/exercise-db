@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: solid;
+  font-weight: bold;
+}
+
+.home-container {
+  margin-top: 1%;
+  text-align: center;
+}
+
